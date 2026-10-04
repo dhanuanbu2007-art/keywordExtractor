@@ -1,16 +1,17 @@
-# Text Summarizer & Keyword Extractor
+# Text Summarizer & Keyword Extractor – Text and Speech Analysis
 
-## Project Overview
+## Project Description
 
-The Text Summarizer & Keyword Extractor is a Natural Language Processing (NLP) application designed to simplify lengthy text by generating concise summaries and identifying important keywords. It helps users understand the main ideas of a document quickly and efficiently.
+The Text Summarizer & Keyword Extractor is a Text and Speech Analysis application that processes lengthy text and generates a concise summary while identifying important keywords. It helps users understand large amounts of information quickly by highlighting the main ideas and essential terms.
 
 ## Features
 
-* Generates concise summaries from lengthy text.
-* Extracts important keywords from the input.
-* Identifies the main ideas of the content.
-* Reduces reading time.
-* Provides a simple and interactive user interface.
+1. Text Summarization
+2. Keyword Extraction
+3. Important Information Identification
+4. Long Text Processing
+5. Concise Summary Generation
+6. User-Friendly Interface
 
 ## Technologies Used
 
@@ -20,38 +21,59 @@ The Text Summarizer & Keyword Extractor is a Natural Language Processing (NLP) a
 * Natural Language Processing (NLP)
 * Text Processing Libraries
 
-## How It Works
+## Requirements
 
-1. The user enters or pastes a lengthy text.
-2. The application processes the input text.
-3. Important sentences and keywords are identified.
-4. A concise summary and keyword list are generated.
-5. The results are displayed to the user.
+* Google account
+* Internet connection
+* Google Colab
+* Text input
 
-## Input
+## How to Run
 
-A lengthy paragraph or document provided by the user.
+1. Open Google Colab.
+2. Create a new notebook.
+3. Paste the application code into a code cell.
+4. Run the code and wait for the required libraries to load.
+5. Open the Gradio application link.
+6. Enter a paragraph or lengthy text.
+7. Click the summarization button.
+8. View the generated summary and extracted keywords.
 
-**Example:**
-"Artificial Intelligence is a branch of computer science that focuses on creating machines capable of performing tasks that typically require human intelligence. It includes machine learning, natural language processing, and computer vision."
+## Sample Input
 
-## Output
+"Artificial intelligence is transforming education by providing personalized learning experiences. It helps students understand difficult concepts, improves accessibility, and supports teachers in managing educational activities."
 
-* **Summary:** Artificial Intelligence enables machines to perform human-like tasks using technologies such as machine learning, NLP, and computer vision.
-* **Keywords:** Artificial Intelligence, Machine Learning, NLP, Computer Vision.
+## Expected Output
 
+* **Summary:** A concise version of the original text.
+* **Keywords:** Artificial intelligence, education, personalized learning, accessibility, teachers.
+
+## Project Workflow
+
+Text Input
+↓
+Text Preprocessing
+↓
+Important Information Identification
+↓
+Summary Generation
+↓
+Keyword Extraction
+↓
+Display Results
 
 ## Applications
 
-* Document summarization
-* Academic note preparation
-* Research paper analysis
+* Academic research
+* News summarization
+* Document analysis
+* Educational assistance
 * Information extraction
-* Content simplification
+* Content summarization
 
 ## Note
 
-The quality of the generated summary and extracted keywords depends on the input text and the summarization technique used.
+This application is developed for educational purposes as part of the Text and Speech Analysis (TSA) project. The quality of the summary depends on the input text and the summarization method used.
 
 ## Application Type
 
