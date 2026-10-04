@@ -28,6 +28,19 @@ The Text Summarizer & Keyword Extractor is a Natural Language Processing (NLP) a
 4. A concise summary and keyword list are generated.
 5. The results are displayed to the user.
 
+## Input
+
+A lengthy paragraph or document provided by the user.
+
+**Example:**
+"Artificial Intelligence is a branch of computer science that focuses on creating machines capable of performing tasks that typically require human intelligence. It includes machine learning, natural language processing, and computer vision."
+
+## Output
+
+* **Summary:** Artificial Intelligence enables machines to perform human-like tasks using technologies such as machine learning, NLP, and computer vision.
+* **Keywords:** Artificial Intelligence, Machine Learning, NLP, Computer Vision.
+
+
 ## Applications
 
 * Document summarization
